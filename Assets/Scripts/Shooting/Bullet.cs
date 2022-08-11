@@ -8,11 +8,15 @@ namespace HitMasterReplica
     {
         public event UnityAction<Bullet> Expired;
 
+        [SerializeField] private int _damage;
+
         private Vector3 _direction;
         private float _speed;
         private Vector3 _startPosition;
         private float _maxDistance;
         private bool _isInited;
+
+        public int Damage => _damage;
 
         private void Start()
         {

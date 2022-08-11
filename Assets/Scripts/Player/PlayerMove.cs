@@ -6,28 +6,21 @@ namespace HitMasterReplica
     [RequireComponent(typeof(NavMeshAgent))]
     public class PlayerMove : MonoBehaviour
     {
-        [SerializeField] private Transform[] _points;
-
-        private int _currentPointIndex;
         private NavMeshAgent _agent;
+        private Vector3 _target;
 
-        public bool IsCurrentPointLast => _currentPointIndex >= _points.Length - 1;
+        public bool IsOnPosition => transform.position.x == _target.x && transform.position.z == _target.z;
 
         private void Start()
         {
             _agent = GetComponent<NavMeshAgent>();
-            _currentPointIndex = 0;
+            _target = transform.position;
         }
 
-        public void TryMoveToNextPoint()
+        public void TryMoveToNextPoint(Vector3 point)
         {
-            if (IsCurrentPointLast)
-            {
-                return;
-            }
-
-            _currentPointIndex++;
-            _agent.SetDestination(_points[_currentPointIndex].position);
+            _target = point;
+            _agent.SetDestination(point);
         }
     }
 }
