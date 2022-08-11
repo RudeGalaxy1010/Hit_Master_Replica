@@ -1,26 +1,44 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 namespace HitMasterReplica
 {
     [RequireComponent(typeof(NavMeshAgent))]
     public class PlayerMove : MonoBehaviour
     {
-        private NavMeshAgent _agent;
-        private Vector3 _target;
+        private const float _destinationThreshold = 0.1f;
 
-        public bool IsOnPosition => transform.position.x == _target.x && transform.position.z == _target.z;
+        public event UnityAction<Location> PositionReached;
+
+        private NavMeshAgent _agent;
+        private Coroutine _onPositionCheckCoroutine;
 
         private void Start()
         {
             _agent = GetComponent<NavMeshAgent>();
-            _target = transform.position;
         }
 
-        public void TryMoveToNextPoint(Vector3 point)
+        public void TryMoveToNextLocation(Location location)
         {
-            _target = point;
-            _agent.SetDestination(point);
+            _agent.SetDestination(location.PlayerPoint.position);
+
+            if (_onPositionCheckCoroutine != null)
+            {
+                StopCoroutine(_onPositionCheckCoroutine);
+                _onPositionCheckCoroutine = null;
+            }
+
+            StartCoroutine(OnPositionCheck(location));
+        }
+
+        private IEnumerator OnPositionCheck(Location location)
+        {
+            yield return null; // Wait for end of frame to update NavMesh path with new location
+            yield return new WaitUntil(() => _agent.remainingDistance <= _destinationThreshold);
+            PositionReached?.Invoke(location);
+            _onPositionCheckCoroutine = null;
         }
     }
 }

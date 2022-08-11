@@ -12,6 +12,7 @@ namespace HitMasterReplica
         [SerializeField] private List<Enemy> _enemies;
 
         public Transform PlayerPoint => _playerPoint;
+        public bool IsComplete => _enemies.Count == 0;
 
         private void OnEnable()
         {
@@ -39,7 +40,7 @@ namespace HitMasterReplica
 
         private void CheckComplete()
         {
-            if (_enemies.Count == 0)
+            if (IsComplete == true)
             {
                 Completed?.Invoke(this);
             }

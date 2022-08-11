@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 2815486788087763387}
   - component: {fileID: 2815486788087763343}
   - component: {fileID: 2815486788087763386}
-  m_Layer: 0
-  m_Name: Enemy
+  m_Layer: 7
+  m_Name: Enemy Cop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targetState: {fileID: 2815486788087763331}
+  _location: {fileID: 0}
 --- !u!114 &2815486788087763331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,6 +249,10 @@ PrefabInstance:
     - target: {fileID: 1283017171755564, guid: f10c394033f254647873f3d28a75a062, type: 3}
       propertyPath: m_Name
       value: SM_Bean_Cop_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283017171755564, guid: f10c394033f254647873f3d28a75a062, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4058866896921748, guid: f10c394033f254647873f3d28a75a062, type: 3}
       propertyPath: m_RootOrder

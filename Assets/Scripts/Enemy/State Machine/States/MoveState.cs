@@ -20,6 +20,7 @@ namespace HitMasterReplica.StateMachine
             _agent.SetDestination(Target.transform.position + stopOffset);
         }
 
+        [System.Obsolete]
         private void OnDisable()
         {
             _agent.Stop();

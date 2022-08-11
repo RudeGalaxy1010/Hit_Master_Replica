@@ -8,11 +8,15 @@ namespace HitMasterReplica
     {
         public event UnityAction LevelComplete;
 
-        [SerializeField] private PlayerMove _player;
+        [SerializeField] private InputReader _inputReader;
+        [SerializeField] private PlayerMove _playerMove;
         [SerializeField] private List<Location> _locations;
 
         private void OnEnable()
         {
+            _inputReader.Taped += OnTaped;
+            _playerMove.PositionReached += OnPlayerPosotionReached;
+
             foreach (Location location in _locations)
             {
                 location.Completed += OnLocationCompleted;
@@ -21,29 +25,51 @@ namespace HitMasterReplica
 
         private void OnDisable()
         {
+            _inputReader.Taped -= OnTaped;
+            _playerMove.PositionReached -= OnPlayerPosotionReached;
+
             foreach (Location location in _locations)
             {
                 location.Completed -= OnLocationCompleted;
             }
         }
 
-        private void OnLocationCompleted(Location location)
+        private void OnTaped(Vector2 screenPosition)
         {
-            location.Completed -= OnLocationCompleted;
-            _locations.Remove(location);
-
-            CheckComplete();
+            _inputReader.Taped -= OnTaped;
+            StartGame();
         }
 
-        private void CheckComplete()
+        private void StartGame()
         {
+            OnLocationCompleted(_locations[0]);
+        }
+
+        private void OnLocationCompleted(Location location)
+        {
+            CheckComplete(location);
+        }
+
+        private void OnPlayerPosotionReached(Location location)
+        {
+            CheckComplete(location);
+        }
+
+        private void CheckComplete(Location location)
+        {
+            if (location.IsComplete == true)
+            {
+                location.Completed -= OnLocationCompleted;
+                _locations.Remove(location);
+            }
+
             if (_locations.Count == 0)
             {
                 LevelComplete?.Invoke();
             }
             else
             {
-                _player.TryMoveToNextPoint(_locations[0].PlayerPoint.position);
+                _playerMove.TryMoveToNextLocation(_locations[0]);
             }
         }
     }
