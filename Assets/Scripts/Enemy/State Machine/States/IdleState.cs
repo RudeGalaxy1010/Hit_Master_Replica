@@ -1,6 +1,6 @@
 namespace HitMasterReplica.StateMachine
 {
-    public class IdleState : State
+    public class IdleState : EnemyState
     {
         private void OnEnable()
         {

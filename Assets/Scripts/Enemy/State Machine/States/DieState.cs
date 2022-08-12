@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace HitMasterReplica.StateMachine
 {
-    public class DieState : State
+    public class DieState : EnemyState
     {
         private void OnEnable()
         {

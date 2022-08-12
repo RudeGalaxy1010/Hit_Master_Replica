@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace HitMasterReplica.StateMachine
 {
-    public class MoveTransition : Transition
+    public class MoveTransition : EnemyTransition
     {
         [SerializeField] private Location _location;
 

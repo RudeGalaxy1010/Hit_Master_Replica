@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace HitMasterReplica.StateMachine
 {
-    public class AttackState : State
+    public class AttackState : EnemyState
     {
         [SerializeField] private int _damage;
         [SerializeField] private float _delay;

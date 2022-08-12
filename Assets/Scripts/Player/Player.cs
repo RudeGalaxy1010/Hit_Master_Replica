@@ -1,10 +1,13 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace HitMasterReplica
 {
     public class Player : MonoBehaviour
     {
+        public event UnityAction<Player> Died;
+
         [SerializeField] private int _health;
 
         public int Health => _health;
@@ -21,7 +24,7 @@ namespace HitMasterReplica
 
         private void Die()
         {
-            throw new NotImplementedException();
+            Died?.Invoke(this);
         }
     }
 }

@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace HitMasterReplica.StateMachine
 {
-    public class AttackTransition : Transition
+    public class AttackTransition : EnemyTransition
     {
         [SerializeField] private float _attackDistance;
 

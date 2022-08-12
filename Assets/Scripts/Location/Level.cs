@@ -6,15 +6,18 @@ namespace HitMasterReplica
 {
     public class Level : MonoBehaviour
     {
-        public event UnityAction LevelComplete;
+        public event UnityAction Completed;
+        public event UnityAction Failed;
 
         [SerializeField] private InputReader _inputReader;
+        [SerializeField] private Player _player;
         [SerializeField] private PlayerMove _playerMove;
         [SerializeField] private List<Location> _locations;
 
         private void OnEnable()
         {
             _inputReader.Taped += OnTaped;
+            _player.Died += OnPlayerDied;
             _playerMove.PositionReached += OnPlayerPosotionReached;
 
             foreach (Location location in _locations)
@@ -26,6 +29,7 @@ namespace HitMasterReplica
         private void OnDisable()
         {
             _inputReader.Taped -= OnTaped;
+            _player.Died -= OnPlayerDied;
             _playerMove.PositionReached -= OnPlayerPosotionReached;
 
             foreach (Location location in _locations)
@@ -47,16 +51,27 @@ namespace HitMasterReplica
 
         private void OnLocationCompleted(Location location)
         {
-            CheckComplete(location);
+            CheckStatus(location);
         }
 
         private void OnPlayerPosotionReached(Location location)
         {
-            CheckComplete(location);
+            CheckStatus(location);
         }
 
-        private void CheckComplete(Location location)
+        private void OnPlayerDied(Player player)
         {
+            Failed?.Invoke();
+        }
+
+        private void CheckStatus(Location location)
+        {
+            if (location.IsFailed == true)
+            {
+                Failed?.Invoke();
+                return;
+            }
+
             if (location.IsComplete == true)
             {
                 location.Completed -= OnLocationCompleted;
@@ -65,7 +80,7 @@ namespace HitMasterReplica
 
             if (_locations.Count == 0)
             {
-                LevelComplete?.Invoke();
+                Completed?.Invoke();
             }
             else
             {
