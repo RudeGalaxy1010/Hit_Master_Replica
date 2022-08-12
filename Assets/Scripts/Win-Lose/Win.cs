@@ -1,11 +1,13 @@
 using System;
 using UnityEngine;
+using HitMasterReplica.UI;
 
 namespace HitMasterReplica
 {
     public class Win : MonoBehaviour
     {
         [SerializeField] private Level _level;
+        [SerializeField] private WinScreen _winScreen;
 
         private void OnEnable()
         {
@@ -19,7 +21,7 @@ namespace HitMasterReplica
 
         private void OnLevelCompleted()
         {
-            throw new NotImplementedException();
+            _winScreen.Show();
         }
     }
 }
