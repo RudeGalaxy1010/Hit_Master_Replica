@@ -4,7 +4,7 @@ using UnityEngine.AI;
 namespace HitMasterReplica.StateMachine
 {
     [RequireComponent(typeof(NavMeshAgent))]
-    public class MoveState : State
+    public class MoveState : EnemyState
     {
         private NavMeshAgent _agent;
 

@@ -3,7 +3,7 @@ using UnityEngine;
 namespace HitMasterReplica.StateMachine
 {
     [RequireComponent(typeof(Animator))]
-    public class WinState : State
+    public class WinState : EnemyState
     {
         private Animator _animator;
 

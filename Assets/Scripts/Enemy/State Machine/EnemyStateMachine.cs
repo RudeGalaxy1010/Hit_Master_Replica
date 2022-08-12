@@ -5,12 +5,12 @@ namespace HitMasterReplica.StateMachine
     [RequireComponent(typeof(Enemy))]
     public class EnemyStateMachine : MonoBehaviour
     {
-        [SerializeField] private State _initialState;
+        [SerializeField] private EnemyState _initialState;
 
         private Player _target;
-        private State _currentState;
+        private EnemyState _currentState;
 
-        public State CurrentState => _currentState;
+        public EnemyState CurrentState => _currentState;
 
         private void Start()
         {
@@ -25,7 +25,7 @@ namespace HitMasterReplica.StateMachine
                 return;
             }
 
-            State nextState = _currentState.GetNextState();
+            EnemyState nextState = _currentState.GetNextState();
             if (nextState != null)
             {
                 Transit(nextState);
@@ -42,7 +42,7 @@ namespace HitMasterReplica.StateMachine
             }
         }
 
-        private void Transit(State state)
+        private void Transit(EnemyState state)
         {
             if (_currentState != null)
             {

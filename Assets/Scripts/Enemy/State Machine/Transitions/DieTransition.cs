@@ -1,6 +1,6 @@
 namespace HitMasterReplica.StateMachine
 {
-    public class DieTransition : Transition
+    public class DieTransition : EnemyTransition
     {
         private void Update()
         {

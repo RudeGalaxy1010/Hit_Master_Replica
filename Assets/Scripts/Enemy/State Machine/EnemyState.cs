@@ -3,9 +3,9 @@ using UnityEngine;
 
 namespace HitMasterReplica.StateMachine
 {
-    public abstract class State : MonoBehaviour
+    public abstract class EnemyState : MonoBehaviour
     {
-        [SerializeField] private List<Transition> _transitions;
+        [SerializeField] private List<EnemyTransition> _transitions;
 
         protected Player Target { get; private set; }
 
@@ -37,7 +37,7 @@ namespace HitMasterReplica.StateMachine
             }
         }
 
-        public State GetNextState()
+        public EnemyState GetNextState()
         {
             for (int i = 0; i < _transitions.Count; i++)
             {

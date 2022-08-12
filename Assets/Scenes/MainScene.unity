@@ -366,6 +366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerPoint: {fileID: 1287818876}
   _enemies: []
+  _civilians: []
 --- !u!1001 &426240219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -769,6 +770,8 @@ MonoBehaviour:
   - {fileID: 650966312}
   - {fileID: 770149166}
   - {fileID: 393830869}
+  _civilians:
+  - {fileID: 2042947293}
 --- !u!1001 &854023482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1444,6 +1447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inputReader: {fileID: 357144577}
+  _player: {fileID: 1644335700}
   _playerMove: {fileID: 1644335699}
   _locations:
   - {fileID: 425129706}
@@ -1497,6 +1501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerPoint: {fileID: 853154194}
   _enemies: []
+  _civilians: []
 --- !u!1 &1803736101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,6 +1595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerPoint: {fileID: 605677976}
   _enemies: []
+  _civilians: []
 --- !u!1001 &2042947291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1652,6 +1658,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4921139682293840117, guid: 246d2b58e6f071241a3dbed680348a32, type: 3}
   m_PrefabInstance: {fileID: 2042947291}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2042947293 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3957259036513315442, guid: 246d2b58e6f071241a3dbed680348a32, type: 3}
+  m_PrefabInstance: {fileID: 2042947291}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be41eda752b68b640b4765367a19a4eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1121523930774402 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2176664631409493416, guid: e4b6cf42a3361a54b9488e596b9a6540, type: 3}
