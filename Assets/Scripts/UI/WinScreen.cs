@@ -6,27 +6,19 @@ namespace HitMasterReplica.UI
 {
     public class WinScreen : MonoBehaviour
     {
-        [SerializeField] private Level _level;
         [SerializeField] private Button _continueButton;
 
         private void OnEnable()
         {
-            _level.Completed += OnLevelCompleted;
             _continueButton.onClick.AddListener(OnContinueButtonClick);
         }
 
         private void OnDisable()
         {
-            _level.Completed -= OnLevelCompleted;
             _continueButton.onClick.RemoveListener(OnContinueButtonClick);
         }
 
-        private void Start()
-        {
-            gameObject.SetActive(false);
-        }
-
-        private void OnLevelCompleted()
+        public void Show()
         {
             gameObject.SetActive(true);
         }

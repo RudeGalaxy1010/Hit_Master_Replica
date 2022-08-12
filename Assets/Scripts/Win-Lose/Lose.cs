@@ -1,11 +1,13 @@
 using System;
 using UnityEngine;
+using HitMasterReplica.UI;
 
 namespace HitMasterReplica
 {
     public class Lose : MonoBehaviour
     {
         [SerializeField] private Level _level;
+        [SerializeField] private LoseScreen _loseScreen;
 
         private void OnEnable()
         {
@@ -19,7 +21,7 @@ namespace HitMasterReplica
 
         private void OnLevelFailed()
         {
-            throw new NotImplementedException();
+            _loseScreen.Show();
         }
     }
 }

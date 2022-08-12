@@ -8,11 +8,15 @@ namespace HitMasterReplica
     {
         public event UnityAction Completed;
         public event UnityAction Failed;
+        public event UnityAction LocationCompleted;
+        public event UnityAction GameStarted;
 
         [SerializeField] private InputReader _inputReader;
         [SerializeField] private Player _player;
         [SerializeField] private PlayerMove _playerMove;
         [SerializeField] private List<Location> _locations;
+
+        public int LocationsCount => _locations.Count;
 
         private void OnEnable()
         {
@@ -24,6 +28,8 @@ namespace HitMasterReplica
             {
                 location.Completed += OnLocationCompleted;
             }
+
+            LocationCompleted?.Invoke();
         }
 
         private void OnDisable()
@@ -46,6 +52,7 @@ namespace HitMasterReplica
 
         private void StartGame()
         {
+            GameStarted?.Invoke();
             OnLocationCompleted(_locations[0]);
         }
 
@@ -76,6 +83,7 @@ namespace HitMasterReplica
             {
                 location.Completed -= OnLocationCompleted;
                 _locations.Remove(location);
+                LocationCompleted?.Invoke();
             }
 
             if (_locations.Count == 0)

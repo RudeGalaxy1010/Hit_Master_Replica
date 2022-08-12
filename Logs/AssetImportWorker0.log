@@ -1654,3 +1654,493 @@ Received Import Request.
 Start importing Assets/Animations/Default Lighting Settings.lighting using Guid(0ad62d13e964de742a5aa522f5c72319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d910db13d493abdb2a4d747c632628c') in 0.005294 seconds
   Import took 0.007404 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 26.212194 seconds.
+  path: Assets/Default Lighting Settings.lighting
+  artifactKey: Guid(0ad62d13e964de742a5aa522f5c72319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Default Lighting Settings.lighting using Guid(0ad62d13e964de742a5aa522f5c72319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ab863b79c7ef4fa19d290cd70c15fb') in 0.002213 seconds
+  Import took 0.004401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015510 seconds.
+  path: Assets/Default Lighting Settings.lighting
+  artifactKey: Guid(0ad62d13e964de742a5aa522f5c72319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Default Lighting Settings.lighting using Guid(0ad62d13e964de742a5aa522f5c72319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ab863b79c7ef4fa19d290cd70c15fb') in 0.002019 seconds
+  Import took 0.004133 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000438 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1731.
+Total: 2.042100 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.458400 ms  DeleteObjects: 0.339000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 5.736748 seconds.
+  path: Assets/Default Lighting Settings.lighting
+  artifactKey: Guid(0ad62d13e964de742a5aa522f5c72319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Default Lighting Settings.lighting using Guid(0ad62d13e964de742a5aa522f5c72319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1126e5c980c045739e723e94bd5408') in 0.010633 seconds
+  Import took 0.012675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.721333 seconds.
+  path: Assets/Default Lighting Settings.lighting
+  artifactKey: Guid(0ad62d13e964de742a5aa522f5c72319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Default Lighting Settings.lighting using Guid(0ad62d13e964de742a5aa522f5c72319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1126e5c980c045739e723e94bd5408') in 0.002766 seconds
+  Import took 0.004852 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.675 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1734.
+Total: 1.858600 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.388400 ms  DeleteObjects: 0.268000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 18.319584 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle
+  artifactKey: Guid(94b6f0e33d6cd413e987ac5b0833e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle using Guid(94b6f0e33d6cd413e987ac5b0833e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e8c4add17dbd954411c7a46771534d') in 0.008173 seconds
+  Import took 0.010612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072740 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_LevelUp.prefab
+  artifactKey: Guid(0f33c06c02f7f4a8093562cd8366fc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_LevelUp.prefab using Guid(0f33c06c02f7f4a8093562cd8366fc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569e83c3a5c3e18dbef72a8f6a38bc64') in 0.063367 seconds
+  Import took 0.066115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Large.prefab
+  artifactKey: Guid(b7b01673a76444a37812ade8d31bad04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Large.prefab using Guid(b7b01673a76444a37812ade8d31bad04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fa16a1d8fcb1f42a065d058e37036e') in 0.006298 seconds
+  Import took 0.008233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Small_Blended.prefab
+  artifactKey: Guid(e6322be532482406da0bfa9788dc5684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Small_Blended.prefab using Guid(e6322be532482406da0bfa9788dc5684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2cd7251d68794aec0722b59c4ae3ec') in 0.006975 seconds
+  Import took 0.008818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Midium.prefab
+  artifactKey: Guid(45701e64f28d340f6a753833d66e05ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Midium.prefab using Guid(45701e64f28d340f6a753833d66e05ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8fcad5209161aae3c7664e5b24fb55') in 0.006842 seconds
+  Import took 0.008775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Midium_Blended.prefab
+  artifactKey: Guid(f484143f593bd4042837de7ede98adb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Midium_Blended.prefab using Guid(f484143f593bd4042837de7ede98adb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365effbd75b1004a4047e9e27c41f2d0') in 0.007162 seconds
+  Import took 0.009093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Midium_Blended.prefab
+  artifactKey: Guid(71906348a9ed64fcc8af5a363f14560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Midium_Blended.prefab using Guid(71906348a9ed64fcc8af5a363f14560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7728944f5112a814f7fea16e57e5a203') in 0.007245 seconds
+  Import took 0.009519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Small.prefab
+  artifactKey: Guid(eb0141ecddf454e32a1dd98ce5637505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Small.prefab using Guid(eb0141ecddf454e32a1dd98ce5637505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e3d18a7c40d78f91288eecab15d26c') in 0.006624 seconds
+  Import took 0.008395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Small.prefab
+  artifactKey: Guid(cf0a13a49f85142ea96bc35c7fa7f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Small.prefab using Guid(cf0a13a49f85142ea96bc35c7fa7f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f53b13b29ba24d3dedbe570a3443aa5') in 0.006286 seconds
+  Import took 0.008599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Large_Blended.prefab
+  artifactKey: Guid(8e6a68fa043fb4155848294b8736eafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Large_Blended.prefab using Guid(8e6a68fa043fb4155848294b8736eafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2268277a8f48ec3922484755c164c4') in 0.006988 seconds
+  Import took 0.008908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Large.prefab
+  artifactKey: Guid(beb16321975b04462a886f9d57198b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Large.prefab using Guid(beb16321975b04462a886f9d57198b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50275446ee79e7495caef0a5368a533d') in 0.006445 seconds
+  Import took 0.008616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Rotate.prefab
+  artifactKey: Guid(160de3bad73ea44b6b354786584e0ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Rotate.prefab using Guid(160de3bad73ea44b6b354786584e0ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcf47f9ffed446afaa1d1f7478621c0') in 0.006880 seconds
+  Import took 0.009179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Midium.prefab
+  artifactKey: Guid(c2cafb6b6db6e4ef59cf44bee3154370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Midium.prefab using Guid(c2cafb6b6db6e4ef59cf44bee3154370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95aed3b4e30da5f59df437e59dcd4464') in 0.006217 seconds
+  Import took 0.008254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Small_Blended.prefab
+  artifactKey: Guid(8a4c71caa8e4f473f8f12cb4762a038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Small_Blended.prefab using Guid(8a4c71caa8e4f473f8f12cb4762a038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0022a2f4b88cc2f84825ac7297f6f50') in 0.006546 seconds
+  Import took 0.008486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Small.prefab
+  artifactKey: Guid(9d0f8d43c3d9640fea820cb1d0863d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Small.prefab using Guid(9d0f8d43c3d9640fea820cb1d0863d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c64536c8457b05546d4ae8bba3eddf4') in 0.006241 seconds
+  Import took 0.008267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Large_Blended.prefab
+  artifactKey: Guid(280df319100524642b619bff72f84ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Large_Blended.prefab using Guid(280df319100524642b619bff72f84ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff2a80b03a6a6207d77ce063c3f1194') in 0.006494 seconds
+  Import took 0.008714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Large_Blended.prefab
+  artifactKey: Guid(899aca41701d947a1b2423e1478b27a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Blue_Large_Blended.prefab using Guid(899aca41701d947a1b2423e1478b27a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ad061b8c448a8f55ecd45b37dd6d61') in 0.006280 seconds
+  Import took 0.008109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Large.prefab
+  artifactKey: Guid(51a827deaccc2481cba14ac0edb62c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Large.prefab using Guid(51a827deaccc2481cba14ac0edb62c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8dff6a7415ef8045f9c3ee5a1420cd') in 0.006473 seconds
+  Import took 0.008198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Midium_Blended.prefab
+  artifactKey: Guid(5de54944460db448ba731cab5ac65e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Green_Midium_Blended.prefab using Guid(5de54944460db448ba731cab5ac65e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6ad3c40739827fa91a7b11ca9f3760') in 0.006030 seconds
+  Import took 0.008166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Midium.prefab
+  artifactKey: Guid(691d96d563e59413d8c545a5a61f5fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Midium.prefab using Guid(691d96d563e59413d8c545a5a61f5fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c46968e5c7234e4b5a5c022ea49af2') in 0.006459 seconds
+  Import took 0.008301 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1737.
+Total: 1.850600 ms (FindLiveObjects: 0.168500 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.339100 ms  DeleteObjects: 0.310800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000582 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1740.
+Total: 1.773900 ms (FindLiveObjects: 0.158700 ms CreateObjectMapping: 0.029500 ms MarkObjects: 1.315200 ms  DeleteObjects: 0.269400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 205.573700 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Small_Blended.prefab
+  artifactKey: Guid(65eba42e4e36348a5840294af8a5b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Small_Blended.prefab using Guid(65eba42e4e36348a5840294af8a5b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5418c0fe56e9b435201df407d40b6c8b') in 0.031492 seconds
+  Import took 0.033808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Large_Blended.prefab
+  artifactKey: Guid(3890e2591858242cda0eb3d91575d680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Large_Blended.prefab using Guid(3890e2591858242cda0eb3d91575d680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4744544c83c1917f62e4cd4a6a571b2') in 0.006561 seconds
+  Import took 0.008768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Small_Blended.prefab
+  artifactKey: Guid(65eba42e4e36348a5840294af8a5b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Purple_Small_Blended.prefab using Guid(65eba42e4e36348a5840294af8a5b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5418c0fe56e9b435201df407d40b6c8b') in 0.003115 seconds
+  Import took 0.004991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Large.prefab
+  artifactKey: Guid(ef136a32cecf447119e5177fdb24473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Large.prefab using Guid(ef136a32cecf447119e5177fdb24473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8f0f53efac9341d67fb065ae7325e1') in 0.006840 seconds
+  Import took 0.008775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.038241 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Midium.prefab
+  artifactKey: Guid(3d85a81ac97ad44eb974b9f624ab2c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Midium.prefab using Guid(3d85a81ac97ad44eb974b9f624ab2c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a397f86c4e5dcd5e5ab9c730994c2925') in 0.006713 seconds
+  Import took 0.008988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Small.prefab
+  artifactKey: Guid(b2adc123b0c7b42a39eb8bc0731a096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Small.prefab using Guid(b2adc123b0c7b42a39eb8bc0731a096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491de7e2ccd134f273b88dc1fdb22f25') in 0.006752 seconds
+  Import took 0.008858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Midium_Blended.prefab
+  artifactKey: Guid(0ad033f3e66ed460baf1566ec1d18546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Midium_Blended.prefab using Guid(0ad033f3e66ed460baf1566ec1d18546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed695f9265aeb502a258e9e0d3e7f1c') in 0.006283 seconds
+  Import took 0.008469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076426 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Small_Blended.prefab
+  artifactKey: Guid(db4d19979795549839ecd625f8039fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Red_Small_Blended.prefab using Guid(db4d19979795549839ecd625f8039fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f192e15282c5fe02e750ce36d16b15e') in 0.006803 seconds
+  Import took 0.009086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Large_Blended.prefab
+  artifactKey: Guid(440a0cd4023ea44bda3d544cc44fe47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Large_Blended.prefab using Guid(440a0cd4023ea44bda3d544cc44fe47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c780b4d54c6b4261f131a7fcc63a277') in 0.007588 seconds
+  Import took 0.009836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Large.prefab
+  artifactKey: Guid(63516633332d14173a8e78c6ae2940a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Large.prefab using Guid(63516633332d14173a8e78c6ae2940a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e86a100d3e3cd65f0277b403cd9fd4e') in 0.006551 seconds
+  Import took 0.008493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.299091 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Midium.prefab
+  artifactKey: Guid(b8bca0248406d47698c56390a74193f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Midium.prefab using Guid(b8bca0248406d47698c56390a74193f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d64ef92aba06664b67d7d6e4aa588f4') in 0.006564 seconds
+  Import took 0.008943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Small.prefab
+  artifactKey: Guid(cc8c97330e5a14f8fb3d5453ca4d2d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Small.prefab using Guid(cc8c97330e5a14f8fb3d5453ca4d2d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1624699141a6462b6a9a12f297d370de') in 0.006337 seconds
+  Import took 0.008525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Midium_Blended.prefab
+  artifactKey: Guid(1e6f24c59c83e4791b70d3d1fbc55e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Midium_Blended.prefab using Guid(1e6f24c59c83e4791b70d3d1fbc55e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3006d0b3410c84dae9f404741fd90f9') in 0.006186 seconds
+  Import took 0.008171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064415 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Small_Blended.prefab
+  artifactKey: Guid(2c39e507ce453421593ef5a6200fa866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_White_Small_Blended.prefab using Guid(2c39e507ce453421593ef5a6200fa866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b3369a35066e24caa5d167d18a728c') in 0.006877 seconds
+  Import took 0.009274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Large.prefab
+  artifactKey: Guid(439afad96177548fd9ed97fe51194506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Large.prefab using Guid(439afad96177548fd9ed97fe51194506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c1388f929f426e0dc9e7e1cbb69ff0') in 0.006336 seconds
+  Import took 0.008125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Large_Blended.prefab
+  artifactKey: Guid(7ee89ad3e606946c29a561a1c65df667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Large_Blended.prefab using Guid(7ee89ad3e606946c29a561a1c65df667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aec234e2c8e88fce102371e5e03469') in 0.007444 seconds
+  Import took 0.009664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570621 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Midium.prefab
+  artifactKey: Guid(bbde420e5b9204c76a50e96a3ac5ab2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Midium.prefab using Guid(bbde420e5b9204c76a50e96a3ac5ab2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e783912e3a72e205e989fce3d3b6fc5') in 0.007214 seconds
+  Import took 0.009591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Small.prefab
+  artifactKey: Guid(e8edc26a8f07c49be83500b71c25e43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Small.prefab using Guid(e8edc26a8f07c49be83500b71c25e43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1f183ee4098ce50aec7b95f0a8ab00') in 0.006306 seconds
+  Import took 0.008244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Midium_Blended.prefab
+  artifactKey: Guid(63ba33c48c3f54845b45dd6fc7dd9be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Midium_Blended.prefab using Guid(63ba33c48c3f54845b45dd6fc7dd9be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97feeafbccd8e45be46b3561b1f48057') in 0.006686 seconds
+  Import took 0.008901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.631627 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Small_Blended.prefab
+  artifactKey: Guid(135dc072086d74fa18a20823eac39bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Star_Yellow_Small_Blended.prefab using Guid(135dc072086d74fa18a20823eac39bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a672b81db25abf9c10dddd9fc575b84') in 0.007079 seconds
+  Import took 0.009392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Tutorials.prefab
+  artifactKey: Guid(f1acc582789c84958ab6bd831395699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/GUI Kit Casual Game/Prefabs/Fx_Paticle/Fx_Tutorials.prefab using Guid(f1acc582789c84958ab6bd831395699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8484721a152fd49f6233eb798cfc84b8') in 0.007052 seconds
+  Import took 0.009062 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000478 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.675 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1743.
+Total: 1.958300 ms (FindLiveObjects: 0.185900 ms CreateObjectMapping: 0.031100 ms MarkObjects: 1.419800 ms  DeleteObjects: 0.320600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
