@@ -4,11 +4,12 @@ namespace HitMasterReplica
 {
     public class Shooting : MonoBehaviour
     {
-        private const float ScreenPositionZ = 100;
+        private const float MaxRayLength = 100;
 
         [SerializeField] private Camera _camera;
         [SerializeField] private InputReader _inputReader;
         [SerializeField] private Weapon _weapon;
+        [SerializeField] private LayerMask _shootingPLaneLayerMask;
 
         private void OnEnable()
         {
@@ -22,10 +23,11 @@ namespace HitMasterReplica
 
         private void Shoot(Vector2 screenPosition)
         {
-            Vector3 screenPoint = new Vector3(screenPosition.x, screenPosition.y, ScreenPositionZ);
-            Vector3 worldPoint = _camera.ScreenToWorldPoint(screenPoint);
-            Vector3 direction = worldPoint - _weapon.ShootPointPosition;
-            _weapon.TryShoot(direction / direction.magnitude);
+            Ray ray = _camera.ScreenPointToRay(screenPosition);
+            if (Physics.Raycast(ray, out RaycastHit hit, MaxRayLength, _shootingPLaneLayerMask))
+            {
+                _weapon.TryShoot((hit.point - _weapon.ShootPoint.position).normalized);
+            }
         }
     }
 }
