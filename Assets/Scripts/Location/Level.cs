@@ -6,8 +6,8 @@ namespace HitMasterReplica
 {
     public class Level : MonoBehaviour
     {
-        public event UnityAction LevelComplete;
-        public event UnityAction LevelFailed;
+        public event UnityAction Completed;
+        public event UnityAction Failed;
 
         [SerializeField] private InputReader _inputReader;
         [SerializeField] private Player _player;
@@ -61,14 +61,14 @@ namespace HitMasterReplica
 
         private void OnPlayerDied(Player player)
         {
-            LevelFailed?.Invoke();
+            Failed?.Invoke();
         }
 
         private void CheckStatus(Location location)
         {
             if (location.IsFailed == true)
             {
-                LevelFailed?.Invoke();
+                Failed?.Invoke();
                 return;
             }
 
@@ -80,7 +80,7 @@ namespace HitMasterReplica
 
             if (_locations.Count == 0)
             {
-                LevelComplete?.Invoke();
+                Completed?.Invoke();
             }
             else
             {
