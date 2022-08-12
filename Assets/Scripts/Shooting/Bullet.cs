@@ -9,6 +9,7 @@ namespace HitMasterReplica
         public event UnityAction<Bullet> Expired;
 
         [SerializeField] private int _damage;
+        [SerializeField] private LayerMask _ignoreLayers;
 
         private Vector3 _direction;
         private float _speed;
@@ -44,6 +45,11 @@ namespace HitMasterReplica
 
         private void OnTriggerEnter(Collider other)
         {
+            if (Mathf.Pow(2, other.gameObject.layer) == _ignoreLayers)
+            {
+                return;
+            }
+
             Expired?.Invoke(this);
         }
 

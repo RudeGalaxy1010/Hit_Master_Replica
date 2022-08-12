@@ -12,7 +12,7 @@ namespace HitMasterReplica
         private bool _isCooldown;
         private float _colldownTimer;
 
-        public Vector3 ShootPointPosition => _shootPoint.position;
+        public Transform ShootPoint => _shootPoint;
 
         private void Start()
         {
@@ -42,7 +42,7 @@ namespace HitMasterReplica
             }
 
             Bullet bullet = _bulletPool.GetBullet();
-            bullet.transform.position = ShootPointPosition;
+            bullet.transform.position = ShootPoint.position;
             bullet.Init(direction, _bulletSpeed);
 
             _isCooldown = true;
