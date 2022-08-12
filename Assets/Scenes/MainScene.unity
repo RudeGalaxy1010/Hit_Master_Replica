@@ -241,6 +241,7 @@ GameObject:
   - component: {fileID: 212743695}
   - component: {fileID: 212743694}
   - component: {fileID: 212743696}
+  - component: {fileID: 212743697}
   m_Layer: 5
   m_Name: Progress Panel
   m_TagString: Untagged
@@ -322,6 +323,22 @@ MonoBehaviour:
   _level: {fileID: 1745573303}
   _progressBar: {fileID: 588211785}
   _progressText: {fileID: 266527897}
+--- !u!111 &212743697
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212743692}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 65015f4958dcf9c45bfe648eb2b4db3b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 65015f4958dcf9c45bfe648eb2b4db3b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &255072222
 GameObject:
   m_ObjectHideFlags: 0
@@ -2142,7 +2159,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284598793}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fccae32ce8118cb4d81b824100e76978, type: 3}
   m_Name: 
@@ -2404,6 +2421,7 @@ GameObject:
   - component: {fileID: 1500139607}
   - component: {fileID: 1500139606}
   - component: {fileID: 1500139608}
+  - component: {fileID: 1500139609}
   m_Layer: 5
   m_Name: Start Screen
   m_TagString: Untagged
@@ -2425,7 +2443,7 @@ RectTransform:
   - {fileID: 590042568}
   m_Father: {fileID: 1781472745}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.7682564}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -2483,6 +2501,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _level: {fileID: 1745573303}
   _progressBar: {fileID: 212743692}
+--- !u!111 &1500139609
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500139604}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 64a2b082a8bec7245a0a615e96136dbf, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 64a2b082a8bec7245a0a615e96136dbf, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1501762196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2989,6 +3023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inputReader: {fileID: 357144577}
+  _shooting: {fileID: 1284598795}
   _player: {fileID: 1644335700}
   _playerMove: {fileID: 1644335699}
   _locations:

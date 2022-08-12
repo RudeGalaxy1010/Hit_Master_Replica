@@ -12,6 +12,7 @@ namespace HitMasterReplica
         public event UnityAction GameStarted;
 
         [SerializeField] private InputReader _inputReader;
+        [SerializeField] private Shooting _shooting;
         [SerializeField] private Player _player;
         [SerializeField] private PlayerMove _playerMove;
         [SerializeField] private List<Location> _locations;
@@ -53,6 +54,7 @@ namespace HitMasterReplica
         private void StartGame()
         {
             GameStarted?.Invoke();
+            _shooting.enabled = true;
             OnLocationCompleted(_locations[0]);
         }
 
