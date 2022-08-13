@@ -9,6 +9,8 @@ namespace HitMasterReplica.UI
         [SerializeField] private Level _level;
         [SerializeField] private Slider _progressBar;
         [SerializeField] private TMP_Text _progressText;
+        [SerializeField] private Animation _animation;
+        [SerializeField] private AnimationClip _hideAnimation;
 
         private int _maxLocationsCount;
 
@@ -33,6 +35,12 @@ namespace HitMasterReplica.UI
             float progress = 1 - ((float)_level.LocationsCount / _maxLocationsCount);
             _progressBar.value = progress;
             _progressText.text = string.Format("{0}%", progress * 100f);
+
+            if (progress >= 1)
+            {
+                _animation.clip = _hideAnimation;
+                _animation.Play();
+            }
         }
     }
 }

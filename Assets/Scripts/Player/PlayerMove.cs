@@ -12,6 +12,9 @@ namespace HitMasterReplica
 
         public event UnityAction<Location> PositionReached;
 
+        [SerializeField] private Animator _animator;
+
+        private Location _currentLocation;
         private NavMeshAgent _agent;
         private Coroutine _onPositionCheckCoroutine;
 
@@ -22,7 +25,14 @@ namespace HitMasterReplica
 
         public void TryMoveToNextLocation(Location location)
         {
+            if (_currentLocation == location)
+            {
+                return;
+            }
+
+            _currentLocation = location;
             _agent.SetDestination(location.PlayerPoint.position);
+            _animator.SetBool(PlayerAnimatorConstants.RunAnimation, true);
 
             if (_onPositionCheckCoroutine != null)
             {
@@ -37,6 +47,7 @@ namespace HitMasterReplica
         {
             yield return null; // Wait for end of frame to update NavMesh path with new location
             yield return new WaitUntil(() => _agent.remainingDistance <= _destinationThreshold);
+            _animator.SetBool(PlayerAnimatorConstants.RunAnimation, false);
             PositionReached?.Invoke(location);
             _onPositionCheckCoroutine = null;
         }

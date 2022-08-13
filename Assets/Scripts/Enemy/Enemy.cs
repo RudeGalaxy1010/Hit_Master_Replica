@@ -3,7 +3,6 @@ using UnityEngine.Events;
 
 namespace HitMasterReplica
 {
-    //[RequireComponent(typeof(Collider))]
     public class Enemy : MonoBehaviour
     {
         public event UnityAction<Enemy> Died;
