@@ -35,11 +35,8 @@ namespace HitMasterReplica.StateMachine
 
         private void OnDisable()
         {
-            if (_agent.remainingDistance > _destinationThreshold)
-            {
-                _agent.SetDestination(transform.position);
-                _animator.SetBool(EnemyAnimatorConstants.RunAnimation, false);
-            }
+            _agent.Warp(transform.position);
+            _animator.StopPlayback();
         }
     }
 }
