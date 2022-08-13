@@ -45,6 +45,7 @@ namespace HitMasterReplica
             bullet.transform.position = ShootPoint.position;
             bullet.Init(direction, _bulletSpeed);
 
+            _colldownTimer = 0;
             _isCooldown = true;
         }
     }
