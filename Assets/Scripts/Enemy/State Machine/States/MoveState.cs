@@ -15,8 +15,6 @@ namespace HitMasterReplica.StateMachine
         {
             _agent = GetComponent<NavMeshAgent>();
             _animator = GetComponent<Animator>();
-
-            _agent.SetDestination(transform.position); // To avoid exception on manually agent stop before agent walks
         }
 
         private void OnEnable()
@@ -39,7 +37,7 @@ namespace HitMasterReplica.StateMachine
         {
             if (_agent.remainingDistance > _destinationThreshold)
             {
-                _agent.isStopped = true;
+                _agent.SetDestination(transform.position);
                 _animator.SetBool(EnemyAnimatorConstants.RunAnimation, false);
             }
         }

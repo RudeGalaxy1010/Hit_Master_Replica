@@ -1,14 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace HitMasterReplica.StateMachine
 {
     public class DieState : EnemyState
     {
+        [SerializeField] private float _dieDelay = 0.5f;
+
         private void OnEnable()
         {
-            Destroy(gameObject, 0.7f);
+            Destroy(gameObject, _dieDelay);
         }
     }
 }

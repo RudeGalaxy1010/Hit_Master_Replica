@@ -1,5 +1,3 @@
-using UnityEngine;
-
 namespace HitMasterReplica
 {
     public static class PlayerAnimatorConstants

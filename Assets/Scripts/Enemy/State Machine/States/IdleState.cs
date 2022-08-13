@@ -37,10 +37,5 @@ namespace HitMasterReplica.StateMachine
                 _isWatching = true;
             }
         }
-
-        private void OnDisable()
-        {
-
-        }
     }
 }
