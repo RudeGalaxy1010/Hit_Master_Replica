@@ -248,7 +248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &212743693
 RectTransform:
   m_ObjectHideFlags: 0
@@ -323,6 +323,8 @@ MonoBehaviour:
   _level: {fileID: 1745573303}
   _progressBar: {fileID: 588211785}
   _progressText: {fileID: 266527897}
+  _animation: {fileID: 212743697}
+  _hideAnimation: {fileID: 7400000, guid: 3746fada7a2b40047b671d453853776c, type: 2}
 --- !u!111 &212743697
 Animation:
   m_ObjectHideFlags: 0
@@ -335,6 +337,7 @@ Animation:
   m_Animation: {fileID: 7400000, guid: 65015f4958dcf9c45bfe648eb2b4db3b, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 65015f4958dcf9c45bfe648eb2b4db3b, type: 2}
+  - {fileID: 7400000, guid: 3746fada7a2b40047b671d453853776c, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -515,11 +518,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2482728081313853795, guid: 1655ad8223f244d34a1dc63ee78eac3f, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2482728081313853795, guid: 1655ad8223f244d34a1dc63ee78eac3f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2482728081838297372, guid: 1655ad8223f244d34a1dc63ee78eac3f, type: 3}
       propertyPath: m_Pivot.x
@@ -1156,8 +1159,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605677975}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.5, y: 4, z: 35.25}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 4, z: 34.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1947161570}
